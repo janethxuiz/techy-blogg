@@ -1,0 +1,30 @@
+{
+  "name": "techy-blogg",
+  "version": "1.0.0",
+  "description": "This app is where developers can add blog posts as well as comment on other developers posts, similiar to a wordpress site.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janethxuiz/techy-blogg.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/janethxuiz/techy-blogg/issues"
+  },
+  "homepage": "https://github.com/janethxuiz/techy-blogg#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.23.2"
+  }
+}
